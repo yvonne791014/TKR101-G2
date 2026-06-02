@@ -7,7 +7,7 @@ import pymysql
 
 # 設定資料庫連線資訊
 host = 'localhost'
-port = 3306  
+port = 3307
 user = 'root'
 passwd = 'password'
 db = 'TESTDB'
@@ -15,5 +15,5 @@ charset = 'utf8mb4'
 
 
 def get_conn():
-    conn = pymysql.connect(host=host, port=port, user=user, passwd=passwd, db=db, charset=charset)
-    
+    conn = pymysql.connect(host=host, port=port, user=user,
+                           passwd=passwd, db=db, charset=charset)
