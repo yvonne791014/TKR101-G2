@@ -7,7 +7,7 @@ import pymysql
 
 # 設定資料庫連線資訊
 host = 'localhost'
-port = 3306  
+port = 3309  
 user = 'root'
 passwd = 'password123'
 db = 'TESTDB'
