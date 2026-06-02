@@ -1,1 +1,1 @@
-print("happy coding!上岸囉!")
+print("happy coding!")
